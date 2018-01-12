@@ -25,7 +25,7 @@ function currentLine(katzDeliLine){
       linestatement = linestatement + " " + (n + 1) + ". " + katzDeliLine[n] + ","
       n++
     }
-    linestatement = linestatement + katzDeliLine.length + ". " + katzDeliLine[katzDeliLine.length - 1]
+    linestatement = linestatement + " " + katzDeliLine.length + ". " + katzDeliLine[katzDeliLine.length - 1]
     return linestatement
   }
 }
