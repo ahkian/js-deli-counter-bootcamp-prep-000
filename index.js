@@ -20,9 +20,9 @@ function currentLine(katzDeliLine){
     return "The line is currently empty."
   } else{
     var n = 0
-    var linestatement = "The line is currently: "
+    var linestatement = "The line is currently:"
     while(n < katzDeliLine.length){
-      linestatement = linestatement + (n + 1) + ". " + katzDeliLine[n]
+      linestatement = linestatement + " " + (n + 1) + ". " + katzDeliLine[n]
       n++
     }
     return linestatement
